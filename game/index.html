@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Canyon Courier — a mountain-canyon parcel run</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #0a1420; height: 100%; }
+  body { display: flex; align-items: center; justify-content: center; }
+  #wrap { width: 1280px; max-width: 100vw; }
+  canvas { display: block; width: 100%; height: auto; background: #0a1420; }
+  #note { color: #7fa8d8; font: 12px system-ui, sans-serif; text-align: center; padding: 6px 0; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="1280" height="480"></canvas>
+  <div id="note">Canyon Courier — fly the rings, mind the walls, land the parcel. A/D steer · W/S climb &amp; descend · SHIFT/CTRL throttle · SPACE boost</div>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
